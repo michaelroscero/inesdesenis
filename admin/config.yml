@@ -1,0 +1,145 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+locale: es
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: site
+    label: Contenido de la web
+    files:
+      - name: portfolio
+        label: Obras y portada
+        file: content/site.json
+        extension: json
+        format: json
+        fields:
+          - label: Obras
+            name: works
+            widget: list
+            label_singular: obra
+            summary: "{{fields.title.es}}"
+            hint: Arrastra las obras para cambiar su orden. Desmarca Publicada para ocultarla sin borrarla.
+            fields:
+              - label: Identificador (sin espacios)
+                name: id
+                widget: string
+                hint: Identificador único en minúsculas, por ejemplo nueva-obra. No lo cambies después de publicar.
+              - label: Publicada
+                name: published
+                widget: boolean
+                default: true
+              - label: Obra destacada en portada
+                name: featured
+                widget: boolean
+                default: false
+                hint: Marca solo una obra como destacada. Si ninguna está marcada, se usa la primera obra publicada.
+              - label: Presentación visual
+                name: layout
+                widget: select
+                options:
+                  - { label: Obra destacada, value: featured }
+                  - { label: Carrusel de imágenes, value: carousel }
+                  - { label: Vídeo, value: lunar }
+                  - { label: Galería de logos, value: logos }
+                  - { label: Imagen y ficha, value: single }
+                default: carousel
+              - label: Disponibilidad
+                name: availability
+                widget: select
+                options:
+                  - { label: Consultar disponibilidad, value: enquire }
+                  - { label: Disponible (consultar), value: available }
+                  - { label: Vendida, value: sold }
+                  - { label: No está a la venta, value: not-for-sale }
+                default: enquire
+              - label: Título
+                name: title
+                widget: object
+                fields:
+                  - { label: Español, name: es, widget: string }
+                  - { label: English, name: en, widget: string }
+              - label: Subtítulo
+                name: subtitle
+                widget: object
+                fields:
+                  - { label: Español, name: es, widget: string, required: false }
+                  - { label: English, name: en, widget: string, required: false }
+              - label: Técnica, serie y año
+                name: medium
+                widget: object
+                fields:
+                  - { label: Español, name: es, widget: string, required: false }
+                  - { label: English, name: en, widget: string, required: false }
+              - label: Descripción principal
+                name: introduction
+                widget: object
+                fields:
+                  - { label: Español, name: es, widget: text, required: false }
+                  - { label: English, name: en, widget: text, required: false }
+              - label: Texto adicional
+                name: paragraphs
+                widget: object
+                fields:
+                  - label: Párrafos en español
+                    name: es
+                    widget: list
+                    field: { label: Párrafo, name: paragraph, widget: text }
+                    required: false
+                  - label: Paragraphs in English
+                    name: en
+                    widget: list
+                    field: { label: Paragraph, name: paragraph, widget: text }
+                    required: false
+              - label: Ficha técnica
+                name: facts
+                widget: list
+                required: false
+                fields:
+                  - label: Concepto
+                    name: label
+                    widget: object
+                    fields:
+                      - { label: Español, name: es, widget: string }
+                      - { label: English, name: en, widget: string }
+                  - label: Valor
+                    name: value
+                    widget: object
+                    fields:
+                      - { label: Español, name: es, widget: string }
+                      - { label: English, name: en, widget: string }
+              - label: Imágenes
+                name: images
+                widget: list
+                required: false
+                fields:
+                  - { label: Imagen, name: src, widget: image }
+                  - label: Texto alternativo
+                    name: alt
+                    widget: object
+                    fields:
+                      - { label: Español, name: es, widget: string }
+                      - { label: English, name: en, widget: string }
+                  - label: Pie de foto
+                    name: caption
+                    widget: object
+                    fields:
+                      - { label: Español, name: es, widget: string, required: false }
+                      - { label: English, name: en, widget: string, required: false }
+              - label: Archivo de vídeo
+                name: video
+                widget: file
+                required: false
+                media_folder: assets
+                public_folder: /assets
+              - label: Poema (solo para la presentación de vídeo)
+                name: poem
+                widget: object
+                required: false
+                fields:
+                  - { label: Autor y referencia, name: title, widget: object, fields: [{ label: Español, name: es, widget: string }, { label: English, name: en, widget: string }] }
+                  - { label: Español, name: es, widget: text }
+                  - { label: English, name: en, widget: text }
