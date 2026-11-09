@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Local tooling and generated files
+.netlify/
+node_modules/
+coverage/
+dist/
+.cache/
+.idea/
+.vscode/
+*.log
+*.swp
+*~
+
+# Local secrets
+.env
+.env.*
+!.env.example
