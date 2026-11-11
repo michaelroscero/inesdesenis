@@ -760,6 +760,14 @@
       "availability": "enquire"
     },
     {
+      "paragraphs": {
+        "es": [
+          "prueba parrafo"
+        ],
+        "en": [
+          "test paragraph"
+        ]
+      },
       "layout": "single",
       "featured": false,
       "published": true,
