@@ -1,17 +1,6 @@
 {
   "works": [
     {
-      "id": "cenizos",
-      "published": true,
-      "layout": "featured",
-      "availability": "enquire",
-      "title": { "es": "CENIZOS / JINX", "en": "CENIZOS / JINX" },
-      "subtitle": { "es": "Inés de Senís, 2026", "en": "Inés de Senís, 2026" },
-      "medium": { "es": "Serie de objetos · 2026", "en": "Objects · 2026" },
-      "introduction": {
-        "es": "Serie de ceniceros de vidrio (Ø 11 cm) con retratos de figuras públicas a los que unos adoran y otros detestan, convirtiendo el gesto de apagar un cigarrillo en una forma de desahogo simbólico.",
-        "en": "A series of glass ashtrays (Ø 11 cm) featuring portraits of public figures adored by some and detested by others, turning the act of stubbing out a cigarette into a form of symbolic release."
-      },
       "paragraphs": {
         "es": [
           "Cada pieza parte de un retrato original al óleo (15 × 25 cm).",
@@ -23,6 +12,20 @@
         ]
       },
       "facts": [],
+      "layout": "featured",
+      "published": true,
+      "medium": {
+        "es": "Serie de objetos · 2026",
+        "en": "Objects · 2026"
+      },
+      "subtitle": {
+        "es": "Inés de Senís, 2026",
+        "en": "Inés de Senís, 2026"
+      },
+      "title": {
+        "es": "CENIZOS / JINX",
+        "en": "CENIZOS / JINX"
+      },
       "images": [
         {
           "src": "assets/cenizos-ayuso.png",
@@ -30,33 +33,60 @@
             "es": "Cenicero de vidrio con retrato de Isabel Díaz Ayuso sobre fondo dorado",
             "en": "Glass ashtray with a portrait of Isabel Díaz Ayuso against a gold background"
           },
-          "caption": { "es": "CENIZOS / JINX · 2026", "en": "CENIZOS / JINX · 2026" }
-        }
-      ]
-    },
-    {
-      "id": "kommuniste",
-      "published": true,
-      "layout": "carousel",
-      "availability": "enquire",
-      "title": { "es": "KOMMUNISTE Nº5", "en": "KOMMUNISTE Nº5" },
-      "subtitle": { "es": "Le parfum ne ment pas.", "en": "Le parfum ne ment pas." },
-      "medium": { "es": "Perfume conceptual · 2026", "en": "Conceptual perfume · 2026" },
-      "introduction": {
-        "es": "Perfume conceptual sobre la capacidad del lujo para renovar el deseo mediante la apropiación de símbolos e imaginarios que ideológicamente lo combaten. Los emblemas de una ideología que aspiraba a superar las divisiones de clase se transforman en objetos de lujo y signos de exclusividad.",
-        "en": "A conceptual perfume exploring luxury’s capacity to renew desire by appropriating symbols and imagery that ideologically oppose it. The emblems of an ideology that sought to overcome class divisions become luxury objects and signs of exclusivity."
-      },
-      "paragraphs": { "es": [], "en": [] },
-      "facts": [
-        {
-          "label": { "es": "Materiales", "en": "Materials" },
-          "value": { "es": "Resina, metal, plástico, papel y pan de oro.", "en": "Resin, metal, plastic, paper and gold leaf." }
-        },
-        {
-          "label": { "es": "Autoría y año", "en": "Artist and year" },
-          "value": { "es": "Inés de Senís, 2026.", "en": "Inés de Senís, 2026." }
+          "caption": {
+            "es": "CENIZOS / JINX · 2026",
+            "en": "CENIZOS / JINX · 2026"
+          }
         }
       ],
+      "introduction": {
+        "es": "Serie de ceniceros de vidrio (Ø 11 cm) con retratos de figuras públicas a los que unos adoran y otros detestan, convirtiendo el gesto de apagar un cigarrillo en una forma de desahogo simbólico.",
+        "en": "A series of glass ashtrays (Ø 11 cm) featuring portraits of public figures adored by some and detested by others, turning the act of stubbing out a cigarette into a form of symbolic release."
+      },
+      "id": "cenizos",
+      "availability": "enquire"
+    },
+    {
+      "paragraphs": {
+        "es": [],
+        "en": []
+      },
+      "facts": [
+        {
+          "label": {
+            "es": "Materiales",
+            "en": "Materials"
+          },
+          "value": {
+            "es": "Resina, metal, plástico, papel y pan de oro.",
+            "en": "Resin, metal, plastic, paper and gold leaf."
+          }
+        },
+        {
+          "label": {
+            "es": "Autoría y año",
+            "en": "Artist and year"
+          },
+          "value": {
+            "es": "Inés de Senís, 2026.",
+            "en": "Inés de Senís, 2026."
+          }
+        }
+      ],
+      "layout": "carousel",
+      "published": true,
+      "medium": {
+        "es": "Perfume conceptual · 2026",
+        "en": "Conceptual perfume · 2026"
+      },
+      "subtitle": {
+        "es": "Le parfum ne ment pas.",
+        "en": "Le parfum ne ment pas."
+      },
+      "title": {
+        "es": "KOMMUNISTE Nº5",
+        "en": "KOMMUNISTE Nº5"
+      },
       "images": [
         {
           "src": "assets/kommuniste-1.png",
@@ -64,12 +94,21 @@
             "es": "Estudio de etiqueta de KOMMUNISTE Nº5 con hoz y martillo",
             "en": "KOMMUNISTE Nº5 label study with hammer and sickle"
           },
-          "caption": { "es": "Estudio de etiqueta · Hoz y martillo", "en": "Label study · Hammer and sickle" }
+          "caption": {
+            "es": "Estudio de etiqueta · Hoz y martillo",
+            "en": "Label study · Hammer and sickle"
+          }
         },
         {
           "src": "assets/kommuniste-2.jpg",
-          "alt": { "es": "Boceto del frasco de KOMMUNISTE Nº5", "en": "KOMMUNISTE Nº5 bottle sketch" },
-          "caption": { "es": "Boceto del frasco", "en": "Bottle sketch" }
+          "alt": {
+            "es": "Boceto del frasco de KOMMUNISTE Nº5",
+            "en": "KOMMUNISTE Nº5 bottle sketch"
+          },
+          "caption": {
+            "es": "Boceto del frasco",
+            "en": "Bottle sketch"
+          }
         },
         {
           "src": "assets/kommuniste-3.png",
@@ -77,73 +116,214 @@
             "es": "Estudio del frasco de KOMMUNISTE Nº5 y ubicación de la etiqueta",
             "en": "KOMMUNISTE Nº5 bottle and label placement study"
           },
-          "caption": { "es": "Estudio del frasco y ubicación de la etiqueta", "en": "Bottle and label placement study" }
+          "caption": {
+            "es": "Estudio del frasco y ubicación de la etiqueta",
+            "en": "Bottle and label placement study"
+          }
         }
-      ]
+      ],
+      "introduction": {
+        "es": "Perfume conceptual sobre la capacidad del lujo para renovar el deseo mediante la apropiación de símbolos e imaginarios que ideológicamente lo combaten. Los emblemas de una ideología que aspiraba a superar las divisiones de clase se transforman en objetos de lujo y signos de exclusividad.",
+        "en": "A conceptual perfume exploring luxury’s capacity to renew desire by appropriating symbols and imagery that ideologically oppose it. The emblems of an ideology that sought to overcome class divisions become luxury objects and signs of exclusivity."
+      },
+      "id": "kommuniste",
+      "availability": "enquire"
     },
     {
-      "id": "vanitas",
-      "published": true,
-      "featured": true,
+      "paragraphs": {
+        "es": [],
+        "en": []
+      },
+      "facts": [
+        {
+          "label": {
+            "es": "Materiales",
+            "en": "Materials"
+          },
+          "value": {
+            "es": "PVC, óleo y barniz.",
+            "en": "PVC, oil paint and varnish."
+          }
+        },
+        {
+          "label": {
+            "es": "Inscripción",
+            "en": "Inscription"
+          },
+          "value": {
+            "es": "Inscripción manual.",
+            "en": "Hand-lettered inscription."
+          }
+        },
+        {
+          "label": {
+            "es": "Dimensiones",
+            "en": "Dimensions"
+          },
+          "value": {
+            "es": "21 × 15 × 19 cm aprox. cada pieza.",
+            "en": "Approx. 21 × 15 × 19 cm per piece."
+          }
+        },
+        {
+          "label": {
+            "es": "Autoría y año",
+            "en": "Artist and year"
+          },
+          "value": {
+            "es": "Inés de Senís, 2026.",
+            "en": "Inés de Senís, 2026."
+          }
+        }
+      ],
       "layout": "carousel",
-      "availability": "enquire",
-      "title": { "es": "VANITAS", "en": "VANITAS" },
-      "subtitle": { "es": "THINK DIFFERENT", "en": "THINK DIFFERENT" },
-      "medium": { "es": "Serie de 15 piezas · 2026", "en": "Series of 15 pieces · 2026" },
+      "featured": true,
+      "published": true,
+      "medium": {
+        "es": "Serie de 15 piezas · 2026",
+        "en": "Series of 15 pieces · 2026"
+      },
+      "subtitle": {
+        "es": "THINK DIFFERENT",
+        "en": "THINK DIFFERENT"
+      },
+      "title": {
+        "es": "VANITAS",
+        "en": "VANITAS"
+      },
+      "images": [
+        {
+          "src": "assets/vanitas-1.jpg",
+          "alt": {
+            "es": "Calavera con la inscripción THINK DIFFERENT",
+            "en": "Skull with the inscription THINK DIFFERENT"
+          },
+          "caption": {
+            "es": "THINK DIFFERENT · VANITAS, 2026",
+            "en": "THINK DIFFERENT · VANITAS, 2026"
+          }
+        },
+        {
+          "src": "assets/vanitas-2.jpg",
+          "alt": {
+            "es": "Calavera con la inscripción BE YOURSELF",
+            "en": "Skull with the inscription BE YOURSELF"
+          },
+          "caption": {
+            "es": "BE YOURSELF · VANITAS, 2026",
+            "en": "BE YOURSELF · VANITAS, 2026"
+          }
+        },
+        {
+          "src": "assets/vanitas-3.jpg",
+          "alt": {
+            "es": "Calavera con la inscripción STAY BOLD",
+            "en": "Skull with the inscription STAY BOLD"
+          },
+          "caption": {
+            "es": "STAY BOLD · VANITAS, 2026",
+            "en": "STAY BOLD · VANITAS, 2026"
+          }
+        },
+        {
+          "src": "assets/vanitas-4.jpg",
+          "alt": {
+            "es": "Calavera con la inscripción IMPOSSIBLE IS NOTHING",
+            "en": "Skull with the inscription IMPOSSIBLE IS NOTHING"
+          },
+          "caption": {
+            "es": "IMPOSSIBLE IS NOTHING · VANITAS, 2026",
+            "en": "IMPOSSIBLE IS NOTHING · VANITAS, 2026"
+          }
+        },
+        {
+          "src": "assets/vanitas-5.jpg",
+          "alt": {
+            "es": "Calavera con la inscripción JUST DO IT",
+            "en": "Skull with the inscription JUST DO IT"
+          },
+          "caption": {
+            "es": "JUST DO IT · VANITAS, 2026",
+            "en": "JUST DO IT · VANITAS, 2026"
+          }
+        }
+      ],
       "introduction": {
         "es": "Una reinterpretación de la tradición de las VANITAS, imágenes que evocan la fugacidad de la vida, la fragilidad de la existencia y el carácter efímero de lo que creemos poseer.",
         "en": "A reinterpretation of the VANITAS tradition: images evoking life’s transience, the fragility of existence and the fleeting nature of what we believe we possess."
       },
-      "paragraphs": { "es": [], "en": [] },
-      "facts": [
-        { "label": { "es": "Materiales", "en": "Materials" }, "value": { "es": "PVC, óleo y barniz.", "en": "PVC, oil paint and varnish." } },
-        { "label": { "es": "Inscripción", "en": "Inscription" }, "value": { "es": "Inscripción manual.", "en": "Hand-lettered inscription." } },
-        { "label": { "es": "Dimensiones", "en": "Dimensions" }, "value": { "es": "21 × 15 × 19 cm aprox. cada pieza.", "en": "Approx. 21 × 15 × 19 cm per piece." } },
-        { "label": { "es": "Autoría y año", "en": "Artist and year" }, "value": { "es": "Inés de Senís, 2026.", "en": "Inés de Senís, 2026." } }
-      ],
-      "images": [
-        { "src": "assets/vanitas-1.jpg", "alt": { "es": "Calavera con la inscripción THINK DIFFERENT", "en": "Skull with the inscription THINK DIFFERENT" }, "caption": { "es": "THINK DIFFERENT · VANITAS, 2026", "en": "THINK DIFFERENT · VANITAS, 2026" } },
-        { "src": "assets/vanitas-2.jpg", "alt": { "es": "Calavera con la inscripción BE YOURSELF", "en": "Skull with the inscription BE YOURSELF" }, "caption": { "es": "BE YOURSELF · VANITAS, 2026", "en": "BE YOURSELF · VANITAS, 2026" } },
-        { "src": "assets/vanitas-3.jpg", "alt": { "es": "Calavera con la inscripción STAY BOLD", "en": "Skull with the inscription STAY BOLD" }, "caption": { "es": "STAY BOLD · VANITAS, 2026", "en": "STAY BOLD · VANITAS, 2026" } },
-        { "src": "assets/vanitas-4.jpg", "alt": { "es": "Calavera con la inscripción IMPOSSIBLE IS NOTHING", "en": "Skull with the inscription IMPOSSIBLE IS NOTHING" }, "caption": { "es": "IMPOSSIBLE IS NOTHING · VANITAS, 2026", "en": "IMPOSSIBLE IS NOTHING · VANITAS, 2026" } },
-        { "src": "assets/vanitas-5.jpg", "alt": { "es": "Calavera con la inscripción JUST DO IT", "en": "Skull with the inscription JUST DO IT" }, "caption": { "es": "JUST DO IT · VANITAS, 2026", "en": "JUST DO IT · VANITAS, 2026" } }
-      ]
+      "id": "vanitas",
+      "availability": "enquire"
     },
     {
-      "id": "we-should-all-wear-dior",
-      "published": true,
+      "paragraphs": {
+        "es": [
+          "Aquí, quienes visten las camisetas no son modelos ni clientes de la firma, sino personas sin hogar.",
+          "Hay frases que cambian de significado según quién las pronuncie. Y según quién las vista."
+        ],
+        "en": [
+          "Here, the T-shirts are worn by people experiencing homelessness, rather than models or customers of the fashion house.",
+          "Some phrases change meaning depending on who says them. And on who wears them."
+        ]
+      },
+      "facts": [],
       "layout": "carousel",
-      "availability": "enquire",
-      "title": { "es": "WE SHOULD ALL WEAR DIOR", "en": "WE SHOULD ALL WEAR DIOR" },
-      "subtitle": { "es": "", "en": "" },
-      "medium": { "es": "Intervención y serie fotográfica · 2026", "en": "Intervention and photographic series · 2026" },
+      "published": true,
+      "medium": {
+        "es": "Intervención y serie fotográfica · 2026",
+        "en": "Intervention and photographic series · 2026"
+      },
+      "subtitle": {
+        "es": "",
+        "en": ""
+      },
+      "title": {
+        "es": "WE SHOULD ALL WEAR DIOR",
+        "en": "WE SHOULD ALL WEAR DIOR"
+      },
+      "images": [
+        {
+          "src": "assets/dior-1.jpg",
+          "alt": {
+            "es": "Hombre con sombrero y chaqueta negra que viste la camiseta WE SHOULD ALL WEAR DIOR en la calle",
+            "en": "Man in a hat and black jacket wearing a WE SHOULD ALL WEAR DIOR T-shirt on the street"
+          },
+          "caption": {
+            "es": "WE SHOULD ALL WEAR DIOR · 2026",
+            "en": "WE SHOULD ALL WEAR DIOR · 2026"
+          }
+        },
+        {
+          "src": "assets/dior-2.jpg",
+          "alt": {
+            "es": "Hombre con sudadera roja que viste la camiseta WE SHOULD ALL WEAR DIOR junto a un escaparate",
+            "en": "Man in a red sweatshirt wearing a WE SHOULD ALL WEAR DIOR T-shirt beside a shop window"
+          },
+          "caption": {
+            "es": "WE SHOULD ALL WEAR DIOR · 2026",
+            "en": "WE SHOULD ALL WEAR DIOR · 2026"
+          }
+        },
+        {
+          "src": "assets/dior-3.jpg",
+          "alt": {
+            "es": "Camiseta negra con la inscripción WE SHOULD ALL WEAR DIOR",
+            "en": "Black T-shirt printed with WE SHOULD ALL WEAR DIOR"
+          },
+          "caption": {
+            "es": "WE SHOULD ALL WEAR DIOR · 2026",
+            "en": "WE SHOULD ALL WEAR DIOR · 2026"
+          }
+        }
+      ],
       "introduction": {
         "es": "La obra reformula el lema «WE SHOULD ALL BE FEMINISTS», comercializado por Dior desde 2017 en camisetas de lujo de unos 750 €, y lo convierte en «WE SHOULD ALL WEAR DIOR».",
         "en": "The work rephrases “WE SHOULD ALL BE FEMINISTS”, marketed by Dior since 2017 on luxury T-shirts costing around €750, as “WE SHOULD ALL WEAR DIOR”."
       },
-      "paragraphs": {
-        "es": ["Aquí, quienes visten las camisetas no son modelos ni clientes de la firma, sino personas sin hogar.", "Hay frases que cambian de significado según quién las pronuncie. Y según quién las vista."],
-        "en": ["Here, the T-shirts are worn by people experiencing homelessness, rather than models or customers of the fashion house.", "Some phrases change meaning depending on who says them. And on who wears them."]
-      },
-      "facts": [],
-      "images": [
-        { "src": "assets/dior-1.jpg", "alt": { "es": "Hombre con sombrero y chaqueta negra que viste la camiseta WE SHOULD ALL WEAR DIOR en la calle", "en": "Man in a hat and black jacket wearing a WE SHOULD ALL WEAR DIOR T-shirt on the street" }, "caption": { "es": "WE SHOULD ALL WEAR DIOR · 2026", "en": "WE SHOULD ALL WEAR DIOR · 2026" } },
-        { "src": "assets/dior-2.jpg", "alt": { "es": "Hombre con sudadera roja que viste la camiseta WE SHOULD ALL WEAR DIOR junto a un escaparate", "en": "Man in a red sweatshirt wearing a WE SHOULD ALL WEAR DIOR T-shirt beside a shop window" }, "caption": { "es": "WE SHOULD ALL WEAR DIOR · 2026", "en": "WE SHOULD ALL WEAR DIOR · 2026" } },
-        { "src": "assets/dior-3.jpg", "alt": { "es": "Camiseta negra con la inscripción WE SHOULD ALL WEAR DIOR", "en": "Black T-shirt printed with WE SHOULD ALL WEAR DIOR" }, "caption": { "es": "WE SHOULD ALL WEAR DIOR · 2026", "en": "WE SHOULD ALL WEAR DIOR · 2026" } }
-      ]
+      "id": "we-should-all-wear-dior",
+      "availability": "enquire"
     },
     {
-      "id": "regla-de-artista",
-      "published": true,
-      "layout": "carousel",
-      "availability": "enquire",
-      "title": { "es": "REGLA DE ARTISTA", "en": "REGLA DE ARTISTA" },
-      "subtitle": { "es": "", "en": "" },
-      "medium": { "es": "2024 · Serie de 32 piezas", "en": "2024 · Series of 32 pieces" },
-      "introduction": {
-        "es": "Una vuelta al mundo a través de 32 eufemismos y disfemismos para no decir la palabra «menstruación».",
-        "en": "A journey around the world through 32 euphemisms and dysphemisms used to avoid saying “menstruation”."
-      },
       "paragraphs": {
         "es": [
           "Entre el humor, el desprecio, la vergüenza, la poesía y la superstición, la obra examina el tabú que persiste, como sedimento cultural, en el lenguaje cotidiano.",
@@ -155,125 +335,461 @@
         ]
       },
       "facts": [
-        { "label": { "es": "Técnica", "en": "Medium" }, "value": { "es": "Acrílico y esmalte metálico sobre lienzo.", "en": "Acrylic and metallic enamel on canvas." } },
-        { "label": { "es": "Dimensiones", "en": "Dimensions" }, "value": { "es": "45 × 50 cm cada pieza (sin marco).", "en": "45 × 50 cm per piece (unframed)." } }
+        {
+          "label": {
+            "es": "Técnica",
+            "en": "Medium"
+          },
+          "value": {
+            "es": "Acrílico y esmalte metálico sobre lienzo.",
+            "en": "Acrylic and metallic enamel on canvas."
+          }
+        },
+        {
+          "label": {
+            "es": "Dimensiones",
+            "en": "Dimensions"
+          },
+          "value": {
+            "es": "45 × 50 cm cada pieza (sin marco).",
+            "en": "45 × 50 cm per piece (unframed)."
+          }
+        }
       ],
+      "layout": "carousel",
+      "published": true,
+      "medium": {
+        "es": "2024 · Serie de 32 piezas",
+        "en": "2024 · Series of 32 pieces"
+      },
+      "subtitle": {
+        "es": "",
+        "en": ""
+      },
+      "title": {
+        "es": "REGLA DE ARTISTA",
+        "en": "REGLA DE ARTISTA"
+      },
       "images": [
-        { "src": "assets/regla-1.jpg", "alt": { "es": "REGLA DE ARTISTA · La Pasionaria · España", "en": "REGLA DE ARTISTA · La Pasionaria · Spain" }, "caption": { "es": "La Pasionaria · España", "en": "La Pasionaria · Spain" } },
-        { "src": "assets/regla-2.jpg", "alt": { "es": "REGLA DE ARTISTA · Shark Week · Estados Unidos", "en": "REGLA DE ARTISTA · Shark Week · United States" }, "caption": { "es": "Shark Week · Estados Unidos", "en": "Shark Week · United States" } },
-        { "src": "assets/regla-3.jpg", "alt": { "es": "REGLA DE ARTISTA · China", "en": "REGLA DE ARTISTA · China" }, "caption": { "es": "China", "en": "China" } },
-        { "src": "assets/regla-4.jpg", "alt": { "es": "Vista del conjunto de 32 piezas de REGLA DE ARTISTA", "en": "Overview of the 32 REGLA DE ARTISTA pieces" }, "caption": { "es": "Vista del conjunto · 32 piezas", "en": "Overview · 32 pieces" } }
-      ]
+        {
+          "src": "assets/regla-1.jpg",
+          "alt": {
+            "es": "REGLA DE ARTISTA · La Pasionaria · España",
+            "en": "REGLA DE ARTISTA · La Pasionaria · Spain"
+          },
+          "caption": {
+            "es": "La Pasionaria · España",
+            "en": "La Pasionaria · Spain"
+          }
+        },
+        {
+          "src": "assets/regla-2.jpg",
+          "alt": {
+            "es": "REGLA DE ARTISTA · Shark Week · Estados Unidos",
+            "en": "REGLA DE ARTISTA · Shark Week · United States"
+          },
+          "caption": {
+            "es": "Shark Week · Estados Unidos",
+            "en": "Shark Week · United States"
+          }
+        },
+        {
+          "src": "assets/regla-3.jpg",
+          "alt": {
+            "es": "REGLA DE ARTISTA · China",
+            "en": "REGLA DE ARTISTA · China"
+          },
+          "caption": {
+            "es": "China",
+            "en": "China"
+          }
+        },
+        {
+          "src": "assets/regla-4.jpg",
+          "alt": {
+            "es": "Vista del conjunto de 32 piezas de REGLA DE ARTISTA",
+            "en": "Overview of the 32 REGLA DE ARTISTA pieces"
+          },
+          "caption": {
+            "es": "Vista del conjunto · 32 piezas",
+            "en": "Overview · 32 pieces"
+          }
+        }
+      ],
+      "introduction": {
+        "es": "Una vuelta al mundo a través de 32 eufemismos y disfemismos para no decir la palabra «menstruación».",
+        "en": "A journey around the world through 32 euphemisms and dysphemisms used to avoid saying “menstruation”."
+      },
+      "id": "regla-de-artista",
+      "availability": "enquire"
     },
     {
-      "id": "viacrucis",
-      "published": true,
+      "paragraphs": {
+        "es": [],
+        "en": []
+      },
+      "facts": [
+        {
+          "label": {
+            "es": "Materiales",
+            "en": "Materials"
+          },
+          "value": {
+            "es": "Resina, madera, pan de oro y lino bordado sobre bastidor.",
+            "en": "Resin, wood, gold leaf and embroidered linen on a stretcher."
+          }
+        },
+        {
+          "label": {
+            "es": "Dimensiones",
+            "en": "Dimensions"
+          },
+          "value": {
+            "es": "55 × 37 × 6 cm cada pieza.",
+            "en": "55 × 37 × 6 cm per piece."
+          }
+        }
+      ],
       "layout": "carousel",
-      "availability": "enquire",
-      "title": { "es": "VIACRUCIS", "en": "VIACRUCIS" },
-      "subtitle": { "es": "", "en": "" },
-      "medium": { "es": "Serie de quince piezas", "en": "Series of fifteen pieces" },
+      "published": true,
+      "medium": {
+        "es": "Serie de quince piezas",
+        "en": "Series of fifteen pieces"
+      },
+      "subtitle": {
+        "es": "",
+        "en": ""
+      },
+      "title": {
+        "es": "VIACRUCIS",
+        "en": "VIACRUCIS"
+      },
+      "images": [
+        {
+          "src": "assets/viacrucis-1.jpg",
+          "alt": {
+            "es": "Marco dorado coronado por una cruz y lino bordado con la inscripción «El arte ya no entiende qué es eso de el pueblo»",
+            "en": "Gold frame topped with a cross and embroidered linen reading “Art no longer understands what the people means”"
+          },
+          "caption": {
+            "es": "El arte ya no entiende qué es eso de «el pueblo»",
+            "en": "Art no longer understands what “the people” means"
+          }
+        },
+        {
+          "src": "assets/viacrucis-2.jpg",
+          "alt": {
+            "es": "Marco dorado coronado por una cruz y lino bordado con la inscripción «El arte también quiere estar del lado del bien»",
+            "en": "Gold frame topped with a cross and embroidered linen reading “Art also wants to be on the side of good”"
+          },
+          "caption": {
+            "es": "El arte también quiere estar del lado del bien",
+            "en": "Art also wants to be on the side of good"
+          }
+        },
+        {
+          "src": "assets/viacrucis-3.jpg",
+          "alt": {
+            "es": "Marco dorado coronado por una cruz y lino bordado con la inscripción «Azotaría a la cultura hasta hacerla sangrar»",
+            "en": "Gold frame topped with a cross and embroidered linen reading “I would flog culture until it bled”"
+          },
+          "caption": {
+            "es": "Azotaría a la cultura hasta hacerla sangrar",
+            "en": "I would flog culture until it bled"
+          }
+        }
+      ],
       "introduction": {
         "es": "Quince estaciones inspiradas en el Viacrucis católico que establecen un paralelismo entre la peregrinación religiosa y los itinerarios contemporáneos de devoción al arte y la cultura.",
         "en": "Fifteen stations inspired by the Catholic Stations of the Cross, drawing a parallel between religious pilgrimage and contemporary itineraries of devotion to art and culture."
       },
-      "paragraphs": { "es": [], "en": [] },
-      "facts": [
-        { "label": { "es": "Materiales", "en": "Materials" }, "value": { "es": "Resina, madera, pan de oro y lino bordado sobre bastidor.", "en": "Resin, wood, gold leaf and embroidered linen on a stretcher." } },
-        { "label": { "es": "Dimensiones", "en": "Dimensions" }, "value": { "es": "55 × 37 × 6 cm cada pieza.", "en": "55 × 37 × 6 cm per piece." } }
-      ],
-      "images": [
-        { "src": "assets/viacrucis-1.jpg", "alt": { "es": "Marco dorado coronado por una cruz y lino bordado con la inscripción «El arte ya no entiende qué es eso de el pueblo»", "en": "Gold frame topped with a cross and embroidered linen reading “Art no longer understands what the people means”" }, "caption": { "es": "El arte ya no entiende qué es eso de «el pueblo»", "en": "Art no longer understands what “the people” means" } },
-        { "src": "assets/viacrucis-2.jpg", "alt": { "es": "Marco dorado coronado por una cruz y lino bordado con la inscripción «El arte también quiere estar del lado del bien»", "en": "Gold frame topped with a cross and embroidered linen reading “Art also wants to be on the side of good”" }, "caption": { "es": "El arte también quiere estar del lado del bien", "en": "Art also wants to be on the side of good" } },
-        { "src": "assets/viacrucis-3.jpg", "alt": { "es": "Marco dorado coronado por una cruz y lino bordado con la inscripción «Azotaría a la cultura hasta hacerla sangrar»", "en": "Gold frame topped with a cross and embroidered linen reading “I would flog culture until it bled”" }, "caption": { "es": "Azotaría a la cultura hasta hacerla sangrar", "en": "I would flog culture until it bled" } }
-      ]
+      "id": "viacrucis",
+      "availability": "enquire"
     },
     {
-      "id": "calendario-lunar",
-      "published": true,
+      "paragraphs": {
+        "es": [],
+        "en": []
+      },
+      "poem": {
+        "title": {
+          "es": "Emily Dickinson · Poema 429",
+          "en": "Emily Dickinson · Poem 429"
+        },
+        "es": "La Luna está lejos del Mar —\nY sin embargo, sus Manos de Ámbar —\nLo llevan —dócil como a un Niño —\nPor las Arenas designadas —\n\nEl Mar no se aparta nunca ni un Grado —\nObediente a Su Ojo\nSe aproxima lo justo —a la Ciudad —\nY se aleja lo justo —\n\nTuya es, Señor, esa Mano de Ámbar —\nY mío —el Mar distante —\nObediente a la orden más mínima\nTu ojo puesto sobre mí —",
+        "en": "The Moon is distant from the Sea —\nAnd yet, with Amber Hands —\nShe leads Him —docile as a Boy —\nAlong appointed Sands —\n\nHe never misses a Degree —\nObedient to Her Eye\nHe comes just so far —toward the Town —\nJust so far —goes away —\n\nOh, Signor, Thine, the Amber Hand —\nAnd mine —the distant Sea —\nObedient to the least command\nThine eye impose on me —"
+      },
+      "facts": [],
       "layout": "lunar",
-      "availability": "enquire",
-      "title": { "es": "CALENDARIO LUNAR", "en": "CALENDARIO LUNAR" },
-      "subtitle": { "es": "", "en": "" },
-      "medium": { "es": "Imagen en movimiento · 2024", "en": "Moving image · 2024" },
+      "published": true,
+      "medium": {
+        "es": "Imagen en movimiento · 2024",
+        "en": "Moving image · 2024"
+      },
+      "subtitle": {
+        "es": "",
+        "en": ""
+      },
+      "title": {
+        "es": "CALENDARIO LUNAR",
+        "en": "CALENDARIO LUNAR"
+      },
+      "images": [],
       "introduction": {
         "es": "Composición de imágenes de resonancia magnética asociadas a una mastectomía bilateral y las fases lunares de marzo de 2008 observadas desde el hemisferio sur.",
         "en": "A composition combining MRI images associated with a bilateral mastectomy and the lunar phases of March 2008 as observed from the Southern Hemisphere."
       },
-      "paragraphs": { "es": [], "en": [] },
-      "facts": [],
-      "images": [],
       "video": "assets/calendario-lunar.mp4",
-      "poem": {
-        "title": { "es": "Emily Dickinson · Poema 429", "en": "Emily Dickinson · Poem 429" },
-        "es": "La Luna está lejos del Mar —\nY sin embargo, sus Manos de Ámbar —\nLo llevan —dócil como a un Niño —\nPor las Arenas designadas —\n\nEl Mar no se aparta nunca ni un Grado —\nObediente a Su Ojo\nSe aproxima lo justo —a la Ciudad —\nY se aleja lo justo —\n\nTuya es, Señor, esa Mano de Ámbar —\nY mío —el Mar distante —\nObediente a la orden más mínima\nTu ojo puesto sobre mí —",
-        "en": "The Moon is distant from the Sea —\nAnd yet, with Amber Hands —\nShe leads Him —docile as a Boy —\nAlong appointed Sands —\n\nHe never misses a Degree —\nObedient to Her Eye\nHe comes just so far —toward the Town —\nJust so far —goes away —\n\nOh, Signor, Thine, the Amber Hand —\nAnd mine —the distant Sea —\nObedient to the least command\nThine eye impose on me —"
-      }
+      "id": "calendario-lunar",
+      "availability": "enquire"
     },
     {
-      "id": "logos-okupas",
-      "published": true,
+      "paragraphs": {
+        "es": [],
+        "en": []
+      },
+      "facts": [
+        {
+          "label": {
+            "es": "Técnica",
+            "en": "Medium"
+          },
+          "value": {
+            "es": "Óleo sobre zapatilla",
+            "en": "Oil on sneaker"
+          }
+        },
+        {
+          "label": {
+            "es": "Año",
+            "en": "Year"
+          },
+          "value": {
+            "es": "2023",
+            "en": "2023"
+          }
+        }
+      ],
       "layout": "logos",
-      "availability": "enquire",
-      "title": { "es": "LOGOS OKUPAS", "en": "SQUATTER LOGOS" },
-      "subtitle": { "es": "SQUATTER LOGOS", "en": "LOGOS OKUPAS" },
-      "medium": { "es": "Óleo sobre zapatilla · 2023", "en": "Oil on sneaker · 2023" },
+      "published": true,
+      "medium": {
+        "es": "Óleo sobre zapatilla · 2023",
+        "en": "Oil on sneaker · 2023"
+      },
+      "subtitle": {
+        "es": "SQUATTER LOGOS",
+        "en": "LOGOS OKUPAS"
+      },
+      "title": {
+        "es": "LOGOS OKUPAS",
+        "en": "SQUATTER LOGOS"
+      },
+      "images": [
+        {
+          "src": "assets/logos-conjunto.jpg",
+          "alt": {
+            "es": "Conjunto de zapatillas intervenidas con símbolos políticos, religiosos y económicos sobre cuatro estantes de vidrio",
+            "en": "Overview of sneakers painted with political, religious, and economic symbols on four glass shelves"
+          },
+          "caption": {
+            "es": "Logos Okupas · Vista del conjunto · 2023",
+            "en": "Squatter Logos · Overview · 2023"
+          }
+        },
+        {
+          "src": "assets/logos-cruz.jpg",
+          "alt": {
+            "es": "Zapatilla intervenida con cruces cristianas blancas y negras",
+            "en": "Sneaker painted with black and white Christian crosses"
+          },
+          "caption": {
+            "es": "Cruz cristiana",
+            "en": "Christian cross"
+          }
+        },
+        {
+          "src": "assets/logos-esvastica.jpg",
+          "alt": {
+            "es": "Zapatilla iridiscente intervenida con una esvástica en la lengüeta",
+            "en": "Iridescent sneaker with a swastika painted on its tongue"
+          },
+          "caption": {
+            "es": "Esvástica",
+            "en": "Swastika"
+          }
+        },
+        {
+          "src": "assets/logos-hoz-martillo.jpg",
+          "alt": {
+            "es": "Zapatilla blanca intervenida con la hoz y el martillo en rojo",
+            "en": "White sneaker painted with a red hammer and sickle"
+          },
+          "caption": {
+            "es": "Hoz y martillo",
+            "en": "Hammer and sickle"
+          }
+        }
+      ],
       "introduction": {
         "es": "¿Puede un logo comercial operar como símbolo político o religioso? ¿Puede un símbolo religioso, político o económico funcionar como una marca?",
         "en": "Can a commercial logo act as a political or religious symbol? Can a religious, political or economic symbol function as a brand?"
       },
-      "paragraphs": { "es": [], "en": [] },
-      "facts": [
-        { "label": { "es": "Técnica", "en": "Medium" }, "value": { "es": "Óleo sobre zapatilla", "en": "Oil on sneaker" } },
-        { "label": { "es": "Año", "en": "Year" }, "value": { "es": "2023", "en": "2023" } }
-      ],
-      "images": [
-        { "src": "assets/logos-conjunto.jpg", "alt": { "es": "Conjunto de zapatillas intervenidas con símbolos políticos, religiosos y económicos sobre cuatro estantes de vidrio", "en": "Overview of sneakers painted with political, religious, and economic symbols on four glass shelves" }, "caption": { "es": "Logos Okupas · Vista del conjunto · 2023", "en": "Squatter Logos · Overview · 2023" } },
-        { "src": "assets/logos-cruz.jpg", "alt": { "es": "Zapatilla intervenida con cruces cristianas blancas y negras", "en": "Sneaker painted with black and white Christian crosses" }, "caption": { "es": "Cruz cristiana", "en": "Christian cross" } },
-        { "src": "assets/logos-esvastica.jpg", "alt": { "es": "Zapatilla iridiscente intervenida con una esvástica en la lengüeta", "en": "Iridescent sneaker with a swastika painted on its tongue" }, "caption": { "es": "Esvástica", "en": "Swastika" } },
-        { "src": "assets/logos-hoz-martillo.jpg", "alt": { "es": "Zapatilla blanca intervenida con la hoz y el martillo en rojo", "en": "White sneaker painted with a red hammer and sickle" }, "caption": { "es": "Hoz y martillo", "en": "Hammer and sickle" } }
-      ]
+      "id": "logos-okupas",
+      "availability": "enquire"
     },
     {
-      "id": "off-the-record",
-      "published": true,
+      "paragraphs": {
+        "es": [],
+        "en": []
+      },
+      "facts": [],
       "layout": "single",
-      "availability": "enquire",
-      "title": { "es": "OFF THE RECORD", "en": "OFF THE RECORD" },
-      "subtitle": { "es": "(Lo que no puede hacerse público)", "en": "(What cannot be made public)" },
-      "medium": { "es": "Instalación escultórica · 2023", "en": "Sculptural installation · 2023" },
+      "published": true,
+      "medium": {
+        "es": "Instalación escultórica · 2023",
+        "en": "Sculptural installation · 2023"
+      },
+      "subtitle": {
+        "es": "(Lo que no puede hacerse público)",
+        "en": "(What cannot be made public)"
+      },
+      "title": {
+        "es": "OFF THE RECORD",
+        "en": "OFF THE RECORD"
+      },
+      "images": [
+        {
+          "src": "assets/off-the-record.jpg",
+          "alt": {
+            "es": "Réplicas de granadas y explosivos colocadas en soportes de micrófono ante una silla de comparecencia",
+            "en": "Replicas of grenades and explosives on microphone stands before a hearing chair"
+          },
+          "caption": {
+            "es": "Off the Record · Instalación escultórica, 2023",
+            "en": "Off the Record · Sculptural installation, 2023"
+          }
+        },
+        {
+          "src": "assets/off-the-record-detail.jpg",
+          "alt": {
+            "es": "Detalle de las réplicas de explosivos sobre soportes de micrófono",
+            "en": "Detail of replica explosives mounted on microphone stands"
+          },
+          "caption": {
+            "es": "Detalle",
+            "en": "Detail"
+          }
+        }
+      ],
       "introduction": {
         "es": "Réplicas de granadas y explosivos de mano dispuestas como micrófonos en una comparecencia de prensa. La obra explora las relaciones entre información, poder y violencia, y plantea la comunicación como un nuevo campo de batalla.",
         "en": "Replicas of hand grenades and explosive devices arranged as microphones at a press conference. The work explores the relationships between information, power and violence, presenting communication as a new battlefield."
       },
-      "paragraphs": { "es": [], "en": [] },
-      "facts": [],
-      "images": [
-        { "src": "assets/off-the-record.jpg", "alt": { "es": "Réplicas de granadas y explosivos colocadas en soportes de micrófono ante una silla de comparecencia", "en": "Replicas of grenades and explosives on microphone stands before a hearing chair" }, "caption": { "es": "Off the Record · Instalación escultórica, 2023", "en": "Off the Record · Sculptural installation, 2023" } },
-        { "src": "assets/off-the-record-detail.jpg", "alt": { "es": "Detalle de las réplicas de explosivos sobre soportes de micrófono", "en": "Detail of replica explosives mounted on microphone stands" }, "caption": { "es": "Detalle", "en": "Detail" } }
-      ]
+      "id": "off-the-record",
+      "availability": "enquire"
     },
     {
-      "id": "autorretrato",
-      "published": true,
+      "paragraphs": {
+        "es": [],
+        "en": []
+      },
+      "facts": [
+        {
+          "label": {
+            "es": "Técnica",
+            "en": "Medium"
+          },
+          "value": {
+            "es": "Óleo sobre lienzo",
+            "en": "Oil on canvas"
+          }
+        },
+        {
+          "label": {
+            "es": "Dimensiones",
+            "en": "Dimensions"
+          },
+          "value": {
+            "es": "73 × 73 cm",
+            "en": "73 × 73 cm"
+          }
+        },
+        {
+          "label": {
+            "es": "Lugar y año",
+            "en": "Place and year"
+          },
+          "value": {
+            "es": "Madrid, 2023",
+            "en": "Madrid, 2023"
+          }
+        }
+      ],
       "layout": "single",
-      "availability": "enquire",
-      "title": { "es": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO", "en": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO" },
-      "subtitle": { "es": "Lo que pagues por mí es lo que vales.", "en": "What you pay for me is what you’re worth." },
-      "medium": { "es": "Pintura", "en": "Painting" },
+      "published": true,
+      "medium": {
+        "es": "Pintura",
+        "en": "Painting"
+      },
+      "subtitle": {
+        "es": "Lo que pagues por mí es lo que vales.",
+        "en": "What you pay for me is what you’re worth."
+      },
+      "title": {
+        "es": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO",
+        "en": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO"
+      },
+      "images": [
+        {
+          "src": "assets/autorretrato.jpg",
+          "alt": {
+            "es": "Autorretrato o cómo se hace un espejo",
+            "en": "Self-portrait or how to make a mirror"
+          },
+          "caption": {
+            "es": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO · 2023",
+            "en": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO · 2023"
+          }
+        }
+      ],
       "introduction": {
         "es": "La inscripción «What you pay for me is what you're worth» convierte la pintura en un espejo donde el valor de la obra y el de quien la mira quedan suspendidos en una misma pregunta.",
         "en": "The inscription “What you pay for me is what you're worth” turns the painting into a mirror in which the value of the work and that of its viewer are suspended within the same question."
       },
-      "paragraphs": { "es": [], "en": [] },
-      "facts": [
-        { "label": { "es": "Técnica", "en": "Medium" }, "value": { "es": "Óleo sobre lienzo", "en": "Oil on canvas" } },
-        { "label": { "es": "Dimensiones", "en": "Dimensions" }, "value": { "es": "73 × 73 cm", "en": "73 × 73 cm" } },
-        { "label": { "es": "Lugar y año", "en": "Place and year" }, "value": { "es": "Madrid, 2023", "en": "Madrid, 2023" } }
-      ],
+      "id": "autorretrato",
+      "availability": "enquire"
+    },
+    {
+      "layout": "single",
+      "featured": false,
+      "published": true,
+      "medium": {
+        "es": "ubas",
+        "en": "grapes"
+      },
+      "subtitle": {
+        "es": "texto",
+        "en": "text"
+      },
+      "title": {
+        "es": "preuba",
+        "en": "test"
+      },
       "images": [
-        { "src": "assets/autorretrato.jpg", "alt": { "es": "Autorretrato o cómo se hace un espejo", "en": "Self-portrait or how to make a mirror" }, "caption": { "es": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO · 2023", "en": "AUTORRETRATO O CÓMO SE HACE UN ESPEJO · 2023" } }
-      ]
+        {
+          "src": "/assets/uploads/img_6523.jpeg",
+          "alt": {
+            "es": "foto de miguel",
+            "en": "a photo of michael"
+          }
+        }
+      ],
+      "introduction": {
+        "es": "esto es una prueba",
+        "en": "this is a text"
+      },
+      "id": "test",
+      "availability": "enquire"
     }
   ]
 }
