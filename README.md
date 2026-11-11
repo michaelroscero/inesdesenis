@@ -26,6 +26,7 @@ Then visit `http://localhost:8000`.
 ## Deploy
 
 Connect this repository to Netlify and deploy from the repository root. `netlify.toml` validates artwork content and publishes the root directory directly.
+The build log lists each artwork image/video path and the resolved file path; CMS paths can be relative or root-relative, but must point inside `assets/`.
 
 The purchased domain can remain with its current registrar and be connected to the Netlify site later. Apply the DNS values shown in Netlify only after checking for existing email records.
 

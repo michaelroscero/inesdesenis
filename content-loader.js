@@ -48,6 +48,15 @@
     return value && typeof value === "object" ? value[language] || "" : "";
   }
 
+  function isSafeAssetPath(value) {
+    const assetPath = typeof value === "string" && value.startsWith("/") ? value.slice(1) : value;
+    return typeof assetPath === "string" &&
+      !value.startsWith("//") &&
+      !assetPath.includes("\\") &&
+      assetPath.startsWith("assets/") &&
+      assetPath.split("/").every(segment => segment && segment !== "." && segment !== "..");
+  }
+
   function element(tag, className, text) {
     const node = document.createElement(tag);
     if (className) node.className = className;
@@ -71,12 +80,12 @@
       }
       if (!Array.isArray(work.images)) throw new Error(`Images must be a list for ${work.id}.`);
       for (const image of work.images) {
-        if (!image.src || image.src.startsWith("/") || image.src.includes("..")) {
-          throw new Error(`Invalid relative image path for ${work.id}.`);
+        if (!isSafeAssetPath(image.src)) {
+          throw new Error(`Invalid image path ${JSON.stringify(image.src)} for ${work.id}; expected a path inside assets/.`);
         }
       }
-      if (work.video && (work.video.startsWith("/") || work.video.includes(".."))) {
-        throw new Error(`Invalid relative video path for ${work.id}.`);
+      if (work.video && !isSafeAssetPath(work.video)) {
+        throw new Error(`Invalid video path ${JSON.stringify(work.video)} for ${work.id}; expected a path inside assets/.`);
       }
     }
     if (site.works.filter(work => work.published && work.featured).length > 1) {

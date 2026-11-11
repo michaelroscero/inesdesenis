@@ -6,6 +6,21 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const contentPath = path.join(root, "content/site.json");
 const site = JSON.parse(await readFile(contentPath, "utf8"));
 
+function resolveAssetPath(value, context) {
+  const assetPath = typeof value === "string" && value.startsWith("/") ? value.slice(1) : value;
+  const segments = typeof assetPath === "string" ? assetPath.split("/") : [];
+  if (
+    typeof assetPath !== "string" ||
+    value.startsWith("//") ||
+    assetPath.includes("\\") ||
+    !assetPath.startsWith("assets/") ||
+    segments.some(segment => !segment || segment === "." || segment === "..")
+  ) {
+    throw new Error(`${context} has an unsafe asset path: ${JSON.stringify(value)}.`);
+  }
+  return path.resolve(root, assetPath);
+}
+
 if (!Array.isArray(site.works) || site.works.length === 0) {
   throw new Error("content/site.json must include at least one artwork.");
 }
@@ -50,10 +65,13 @@ for (const work of site.works) {
 
   if (!Array.isArray(work.images)) throw new Error(`Artwork ${work.id} needs an images list.`);
   for (const image of work.images) {
-    if (!image.src?.startsWith("assets/") || image.src.includes("..")) {
-      throw new Error(`Artwork ${work.id} has an unsafe image path.`);
+    const filePath = resolveAssetPath(image.src, `Artwork ${work.id} image`);
+    console.log(`Checking artwork ${work.id} image path ${JSON.stringify(image.src)} -> ${filePath}`);
+    try {
+      await access(filePath);
+    } catch (error) {
+      throw new Error(`Artwork ${work.id} image ${JSON.stringify(image.src)} cannot be accessed at ${filePath}.`, { cause: error });
     }
-    await access(path.resolve(root, image.src));
     for (const language of ["es", "en"]) {
       if (!image.alt?.[language]?.trim()) {
         throw new Error(`Image ${image.src} needs ${language} alternative text.`);
@@ -62,10 +80,13 @@ for (const work of site.works) {
   }
 
   if (work.video) {
-    if (!work.video.startsWith("assets/") || work.video.includes("..")) {
-      throw new Error(`Artwork ${work.id} has an unsafe video path.`);
+    const filePath = resolveAssetPath(work.video, `Artwork ${work.id} video`);
+    console.log(`Checking artwork ${work.id} video path ${JSON.stringify(work.video)} -> ${filePath}`);
+    try {
+      await access(filePath);
+    } catch (error) {
+      throw new Error(`Artwork ${work.id} video ${JSON.stringify(work.video)} cannot be accessed at ${filePath}.`, { cause: error });
     }
-    await access(path.resolve(root, work.video));
   }
   if (work.layout === "featured" && work.images.length === 0) {
     throw new Error(`Featured layout ${work.id} requires a cover image.`);
