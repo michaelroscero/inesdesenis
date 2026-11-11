@@ -52,14 +52,14 @@ for (const work of site.works) {
     if (!work.title?.[language]?.trim()) {
       throw new Error(`Artwork ${work.id} needs a ${language} title.`);
     }
-    if (!work.medium || typeof work.medium[language] !== "string") {
-      throw new Error(`Artwork ${work.id} needs a ${language} medium field.`);
+    if (work.medium && typeof work.medium[language] !== "string") {
+      throw new Error(`Artwork ${work.id} has an invalid ${language} medium field.`);
     }
-    if (!work.introduction || typeof work.introduction[language] !== "string") {
-      throw new Error(`Artwork ${work.id} needs a ${language} introduction field.`);
+    if (work.introduction && typeof work.introduction[language] !== "string") {
+      throw new Error(`Artwork ${work.id} has an invalid ${language} introduction field.`);
     }
-    if (!Array.isArray(work.paragraphs?.[language])) {
-      throw new Error(`Artwork ${work.id} needs a ${language} paragraphs list.`);
+    if (work.paragraphs && !Array.isArray(work.paragraphs[language])) {
+      throw new Error(`Artwork ${work.id} has an invalid ${language} paragraphs list.`);
     }
   }
 

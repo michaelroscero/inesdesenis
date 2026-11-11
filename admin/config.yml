@@ -65,24 +65,28 @@ collections:
               - label: Subtítulo
                 name: subtitle
                 widget: object
+                required: false
                 fields:
                   - { label: Español, name: es, widget: string, required: false }
                   - { label: English, name: en, widget: string, required: false }
               - label: Técnica, serie y año
                 name: medium
                 widget: object
+                required: false
                 fields:
                   - { label: Español, name: es, widget: string, required: false }
                   - { label: English, name: en, widget: string, required: false }
               - label: Descripción principal
                 name: introduction
                 widget: object
+                required: false
                 fields:
                   - { label: Español, name: es, widget: text, required: false }
                   - { label: English, name: en, widget: text, required: false }
               - label: Texto adicional
                 name: paragraphs
                 widget: object
+                required: false
                 fields:
                   - label: Párrafos en español
                     name: es
@@ -126,6 +130,7 @@ collections:
                   - label: Pie de foto
                     name: caption
                     widget: object
+                    required: false
                     fields:
                       - { label: Español, name: es, widget: string, required: false }
                       - { label: English, name: en, widget: string, required: false }
